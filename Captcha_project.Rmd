@@ -20,7 +20,7 @@ library(purrr)
 set.seed(1234)
 
 # Define the path to the CAPTCHA images directory
-data_dir <- "lower/"
+data_dir <- "Captcha_data/"
 
 # Get list of all image files
 image_files <- list.files(data_dir, pattern = "*.png", full.names = TRUE)
